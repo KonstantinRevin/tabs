@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+button{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    max-width: 310px;
+    margin: 0 auto;
+}
+.container{
+    margin-top: 20px;
+    border: solid 1px black;
+   
+}
+.btn{
+    padding: 10px 19px;
+    border: solid 1px black;
+    background-color: #fff;
+}
+.container-tabs{
+    padding: 10px;
+}
+.tabs{
+    display: none;
+}
+.btn:hover{
+    background-color: rgb(160, 160, 238); 
+    transition: .5s;
+}
+.container-btn{
+    display: flex;
+    justify-content: space-between;
+}
+.container-btn .active{
+  
+    border-bottom: none;
+}
+.container-tabs .active{
+    display: block;
+}
